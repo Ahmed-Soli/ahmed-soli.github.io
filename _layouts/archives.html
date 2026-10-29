@@ -8,8 +8,16 @@ layout: page
 {% assign df_strftime_m = site.data.locales[lang].df.archives.strftime | default: '/ %m' %}
 {% assign df_dayjs_m = site.data.locales[lang].df.archives.dayjs | default: '/ MM' %}
 
+{% comment %} Posts in the "events" category are kept out of the archives timeline. {% endcomment %}
+{% assign archive_posts = '' | split: '' %}
+{% for p in site.posts %}
+  {% unless p.categories contains 'events' %}
+    {% assign archive_posts = archive_posts | push: p %}
+  {% endunless %}
+{% endfor %}
+
 <div id="archives" class="pl-xl-3">
-  {% for post in site.posts %}
+  {% for post in archive_posts %}
     {% assign cur_year = post.date | date: '%Y' %}
 
     {% if cur_year != last_year %}
