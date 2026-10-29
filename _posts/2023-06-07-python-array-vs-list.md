@@ -5,11 +5,14 @@ date: 2023-06-07
 categories: [python, data-structures]
 tags: [python, list, array, data-structures, interview, big-o]
 description: "A common Python interview question explained in Arabic: how a list is built on top of an array, and what that means for time complexity."
+image:
+  path: /assets/images/posts/python/cover.jpg
+  alt: Python array vs list
 ---
 
 *This post is in Egyptian Arabic, as I first wrote it on LinkedIn.*
 
-<div dir="rtl" markdown="1">
+<div dir="rtl" class="rtl-post" markdown="1">
 
 هتكلم النهارده عن حاجة اتسألت فيها في انترفيو، وكنا واخدين بايثون كلغة برمجة:
 

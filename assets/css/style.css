@@ -46,3 +46,9 @@ html[data-mode="dark"] .header-title {
     color: #87CEFA !important; /* Lighter blue color for dark mode */
   }
 }
+/* Arabic posts: keep code blocks left-to-right inside right-to-left text */
+.rtl-post pre,
+.rtl-post code {
+  direction: ltr;
+  text-align: left;
+}

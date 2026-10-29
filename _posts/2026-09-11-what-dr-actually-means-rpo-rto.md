@@ -5,6 +5,9 @@ date: 2026-09-11
 categories: [disaster-recovery]
 tags: [dr, rpo, rto, sre, kubernetes]
 description: "The first post in a series on disaster recovery: what RPO and RTO really mean, and why the data layer usually decides your recovery time."
+image:
+  path: /assets/images/posts/dr-rpo-rto/cover.jpg
+  alt: "RPO vs RTO: the two numbers nobody wants to say out loud"
 ---
 
 It's been over a year since I last posted publicly, not for lack of things to say. I've been heads-down doing work worth writing about, and I'd rather share something real than post for the sake of it.
