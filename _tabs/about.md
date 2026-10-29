@@ -6,9 +6,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-**👋 Hi, I'm Ahmed Soliman, a Senior SRE / DevOps Engineer.**
+**👋 Hi, I'm Ahmed Soliman: Senior Software Engineer | SRE | DevOps.**
 
-I work at Lean Technologies, an open banking platform, where I own disaster recovery alongside Kubernetes, GitOps and infrastructure as code. I'm a T-shaped engineer with 5+ years of experience combining software engineering and infrastructure automation. I have a strong foundation in Python, Django and system design, paired with hands-on delivery of cloud-native solutions on AWS, Kubernetes and OpenShift. I'm skilled in Docker, CI/CD, Terraform and Ansible, with a focus on secure, scalable and observable systems. I keep a personal 5-node Kubernetes home lab to prototype architectures, test tooling and explore emerging DevOps practices.
+I'm based in Saudi Arabia and work at Lean Technologies, an open banking platform, where I own disaster recovery alongside Kubernetes, GitOps and infrastructure as code. I'm a T-shaped engineer with 5+ years of experience combining software engineering and infrastructure automation. I have a strong foundation in Python, Django and system design, paired with hands-on delivery of cloud-native solutions on AWS, Kubernetes and OpenShift. I'm skilled in Docker, CI/CD, Terraform and Ansible, with a focus on secure, scalable and observable systems. I keep a personal 5-node Kubernetes home lab to prototype architectures, test tooling and explore emerging DevOps practices.
 
 This blog is where I write down what I learn along the way, starting with a series on disaster recovery.
 
