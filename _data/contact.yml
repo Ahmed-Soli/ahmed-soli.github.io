@@ -7,6 +7,10 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: linkedin
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/ahmed-soliman-moh/"
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
