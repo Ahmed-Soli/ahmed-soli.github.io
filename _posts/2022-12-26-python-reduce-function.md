@@ -5,6 +5,9 @@ date: 2022-12-26
 categories: [python, deep-dive]
 tags: [python, higher-order-functions, reduce, functools, deep-dive-with-ahmed]
 description: "Deep Dive with Ahmed, in Arabic: how max, min and sum work behind the scenes, and how reduce generalises them."
+image:
+  path: /assets/images/posts/python-threads/reduce-cover.jpg
+  alt: "reduce(): [1, 5, 3, 8] goes through max(a, b) and becomes 8"
 ---
 
 *This post is in Egyptian Arabic, as I first wrote it on LinkedIn. It follows [map]({% post_url 2022-12-21-python-map-function-and-higher-order-functions %}) and [filter]({% post_url 2022-12-25-python-filter-function %}).*

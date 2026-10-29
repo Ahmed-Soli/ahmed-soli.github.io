@@ -6,8 +6,8 @@ categories: [python, deep-dive]
 tags: [python, higher-order-functions, filter, lambda, deep-dive-with-ahmed]
 description: "Deep Dive with Ahmed, in Arabic: how filter works, why use it over a loop, the None trick, and the difference between map and filter."
 image:
-  path: /assets/images/posts/python-threads/filter.jpg
-  alt: Python code examples for the filter function
+  path: /assets/images/posts/python-threads/filter-cover.jpg
+  alt: "filter(): [0, 1, 2, 3, 4] keeps only the even numbers [0, 2, 4]"
 ---
 
 *This post is in Egyptian Arabic, as I first wrote it on LinkedIn. It follows [map]({% post_url 2022-12-21-python-map-function-and-higher-order-functions %}) and comes before [reduce]({% post_url 2022-12-26-python-reduce-function %}).*
@@ -78,6 +78,8 @@ print(list(filter(None, lst)))
 - `filter`: بتنفذ الدالة (أو الشرط يعني) على كل العناصر، ولكن بترجع iterable فيه العناصر اللي ينطبق عليهم الشرط فقط.
 
 ## الكود
+
+![Python code examples for the filter function](/assets/images/posts/python-threads/filter.jpg)
 
 <bdi>[02-filter_func.py](https://github.com/Ahmed-Soli/deep_dive_with_ahmed/blob/main/02-filter_func.py)</bdi> في الـ repo بتاع السلسلة.
 

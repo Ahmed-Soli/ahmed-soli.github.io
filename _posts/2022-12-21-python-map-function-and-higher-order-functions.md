@@ -6,8 +6,8 @@ categories: [python, deep-dive]
 tags: [python, higher-order-functions, map, lambda, deep-dive-with-ahmed]
 description: "My first Deep Dive with Ahmed post, in Arabic: what a higher-order function is, and how map replaces index-based loops over several lists."
 image:
-  path: /assets/images/posts/python-threads/map.jpg
-  alt: Python code examples for the map function
+  path: /assets/images/posts/python-threads/map-cover.jpg
+  alt: "map(): [1, 2, 3] goes through x ** 2 and becomes [1, 4, 9]"
 ---
 
 *This post is in Egyptian Arabic, as I first wrote it on LinkedIn. It is the first post in my "Deep Dive with Ahmed" series. Next: [filter]({% post_url 2022-12-25-python-filter-function %}).*
@@ -42,6 +42,8 @@ image:
 خلينا الأول نفترض إن عندي 2 lists وعاوز أعمل عملية جمع عليهم، بحيث الناتج يكون مجموع الأرقام اللي في الاتنين. يعني عندي `lst_1 = [1,2,3]` وعندي `lst_2 = [10,20,30]` وعاوز الناتج يكون `[11, 22, 33]`.
 
 في العادي كنت بعمل لوب مثلًا على لست منهم وأجيب العنصر التاني بالإندكس، حاجة زي أول صورة مثلًا (فيه حلول كتير بس ده كمثال يعني).
+
+![Python code examples for the map function](/assets/images/posts/python-threads/map.jpg){: w="600" }
 
 ولكن لو فرضنا إن اللست الأولى كان عددها مثلًا 4 والتانية 3، ساعتها هيحصل:
 
