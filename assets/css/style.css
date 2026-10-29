@@ -52,3 +52,45 @@ html[data-mode="dark"] .header-title {
   direction: ltr;
   text-align: left;
 }
+
+/* Home intro card: follow the theme's light and dark colours */
+.intro-card {
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-card .intro-title {
+  color: var(--heading-color);
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+}
+
+.intro-card .intro-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.intro-card .intro-topics li {
+  border: 1px solid var(--main-border-color);
+  border-radius: 2rem;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  padding: 0.25rem 0.85rem;
+}
+
+.intro-card .intro-topics i {
+  color: var(--link-color);
+  margin-right: 0.35rem;
+}
+
+.intro-card .intro-note {
+  color: var(--text-muted-color);
+  margin: 0;
+}

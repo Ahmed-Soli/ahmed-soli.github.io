@@ -11,41 +11,18 @@ refactor: true
 {% assign posts = '' | split: '' %}
 
 
-{% comment %} [PLACEHOLDER: revise this intro card to match the topics you plan to write about] {% endcomment %}
-<div class="card border-0 shadow-sm mb-4">
-  <div class="card-body card-body-header">
-    <h2 class="h4 mb-4 header-title">🧱 What You’ll Find Here</h2>
-    <div class="row g-4">
-      <div class="col-md-4">       
-          <div class="border-start border-3 ps-3 h-100">
-            <h5 class="fw-bold text-primary">🛟 Disaster Recovery</h5>
-            <p class="text-muted mb-0">
-              A series on what disaster recovery really takes: RPO and RTO, the data layer, DNS, Kubernetes and the rest.
-            </p>
-          </div>        
-      </div>
-      <div class="col-md-4">    
-          <div class="border-start border-3 ps-3 h-100">
-            <h5 class="fw-bold text-success">☸️ Kubernetes &amp; AWS</h5>
-            <p class="text-muted mb-0">
-              Lessons from running cloud-native platforms on Kubernetes, OpenShift and AWS.
-            </p>
-          </div>       
-      </div>
-      <div class="col-md-4">       
-          <div class="border-start border-3 ps-3 h-100">
-            <h5 class="fw-bold text-warning">⚙️ Automation</h5>
-            <p class="text-muted mb-0">
-              Terraform, Ansible, CI/CD and the scripts that remove manual work.
-            </p>
-          </div>       
-      </div>
-    </div>
-  </div>
+<div class="intro-card">
+  <h2 class="intro-title">What You’ll Find Here</h2>
+  <ul class="intro-topics">
+    <li><i class="fas fa-code"></i> Software engineering</li>
+    <li><i class="fas fa-lightbulb"></i> Problem solving</li>
+    <li><i class="fab fa-python"></i> Python</li>
+    <li><i class="fas fa-gears"></i> Automation</li>
+    <li><i class="fas fa-server"></i> SRE &amp; DevOps work</li>
+    <li><i class="fas fa-cloud"></i> Cloud</li>
+  </ul>
+  <p class="intro-note">I intend to start sharing what I’m working on in this blog.</p>
 </div>
-
-
-
 
 <!-- Get pinned posts on current page -->
 
